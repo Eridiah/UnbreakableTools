@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unbreakabletools",
+  "name": "Unbreakable Tools Mod",
+  "description": "A mod specifically made for McMercy on the MinecraftForums that adds recipes for unbreakable versions of whatever tool you'd like.",
+  "version": "Alpha v0.1",
+  "mcversion": "1.11",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Eridiah"],
+  "credits": "McMercy, for the great idea, Mojang, for making Minecraft, and MCP, for making this task one hell of a lot easier",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
