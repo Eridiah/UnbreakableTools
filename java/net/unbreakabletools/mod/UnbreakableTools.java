@@ -1,5 +1,6 @@
 package net.unbreakabletools.mod;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -18,6 +19,8 @@ public class UnbreakableTools {
 
 	@Instance
 	public static UnbreakableTools instance;
+	
+	public static final CreativeTabs MAIN_TAB = new MainTab();
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

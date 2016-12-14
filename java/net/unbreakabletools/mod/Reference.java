@@ -11,9 +11,11 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "net.unbreakabletools.mod.proxy.ServerProxy";
 	
 	public static enum UTItems {
-		
-		GOD_PICKAXE("godpickaxe", "itemgodpickaxe"),
-		TEST_ITEM("testitem", "itemtestitem");
+		GOD_WOODEN_SWORD("godwoodensword", "itemgodwoodensword"),
+		GOD_WOODEN_SHOVEL("godwoodenshovel", "itemgodwoodenshovel"),
+		GOD_WOODEN_PICKAXE("godwoodenpickaxe", "itemgodwoodenpickaxe"),
+		GOD_WOODEN_AXE("godwoodenaxe", "itemgodwoodenaxe"),
+		GOD_WOODEN_HOE("godwoodenhoe", "itemgodwoodenhoe");
 		
 		private String unlocalizedName;
 		private String registryName;

@@ -1,3 +1,7 @@
-item.testitem.name=Test Item
+itemGroup.tabmain=Unbreakable Tools
 
-item.godpickaxe.name=God Pickaxe
+item.godwoodensword.name=Wooden Sword (Unbreakable)
+item.godwoodenshovel.name=Wooden Shovel (Unbreakable)
+item.godwoodenpickaxe.name=Wooden Pickaxe (Unbreakable)
+item.godwoodenaxe.name=Wooden Axe (Unbreakable)
+item.godwoodenhoe.name=Wooden Hoe (Unbreakable)

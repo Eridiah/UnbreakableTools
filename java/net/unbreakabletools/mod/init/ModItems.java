@@ -6,31 +6,53 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.unbreakabletools.mod.items.ItemTestItem;
-import net.unbreakabletools.mod.tools.ItemGodPickaxe;
+import net.unbreakabletools.mod.tools.ItemGodWoodenAxe;
+import net.unbreakabletools.mod.tools.ItemGodWoodenHoe;
+import net.unbreakabletools.mod.tools.ItemGodWoodenPickaxe;
+import net.unbreakabletools.mod.tools.ItemGodWoodenShovel;
+import net.unbreakabletools.mod.tools.ItemGodWoodenSword;
 
 public class ModItems {
 	
 	//Tool Materials
-	public static ToolMaterial GOD_MATERIAL = EnumHelper.addToolMaterial("god_material", 3, 0, 8.0f, 6.0f, 10);
+	public static ToolMaterial GOD_MATERIAL_WOOD = EnumHelper.addToolMaterial("god_material_wood", 0, 0, 2.0f, 0.0f, 15);
+	public static ToolMaterial GOD_MATERIAL_STONE = EnumHelper.addToolMaterial("god_material_stone", 1, 0, 4.0f, 1.0f, 5);
+	public static ToolMaterial GOD_MATERIAL_IRON = EnumHelper.addToolMaterial("god_material_iron", 2, 0, 6.0f, 2.0f, 14);
+	public static ToolMaterial GOD_MATERIAL_GOLD = EnumHelper.addToolMaterial("god_material_gold", 0, 0, 12.0f, 0.0f, 22);
+	public static ToolMaterial GOD_MATERIAL_DIAMOND = EnumHelper.addToolMaterial("god_material_diamond", 3, 0, 8.0f, 3.0f, 10);
 	
-	public static Item godpickaxe;
-
-	public static Item testitem;
+	//Wooden Tools
+	public static Item godwoodensword;
+	public static Item godwoodenshovel;
+	public static Item godwoodenpickaxe;
+	public static Item godwoodenaxe;
+	public static Item godwoodenhoe;
 	
 	public static void init() {
-		testitem = new ItemTestItem();
-		godpickaxe = new ItemGodPickaxe(GOD_MATERIAL);
+		//Wood
+		godwoodensword = new ItemGodWoodenSword(GOD_MATERIAL_WOOD);
+		godwoodenshovel = new ItemGodWoodenShovel(GOD_MATERIAL_WOOD);
+		godwoodenpickaxe = new ItemGodWoodenPickaxe(GOD_MATERIAL_WOOD);
+		godwoodenaxe = new ItemGodWoodenAxe(GOD_MATERIAL_WOOD);
+		godwoodenhoe = new ItemGodWoodenHoe(GOD_MATERIAL_WOOD);
 	}
 	
 	public static void register() {
-		GameRegistry.register(testitem);
-		GameRegistry.register(godpickaxe);
+		//Wood
+		GameRegistry.register(godwoodensword);
+		GameRegistry.register(godwoodenshovel);
+		GameRegistry.register(godwoodenpickaxe);
+		GameRegistry.register(godwoodenaxe);
+		GameRegistry.register(godwoodenhoe);
 	}
 	
 	public static void registerRenders() {
-		registerRender(testitem);
-		registerRender(godpickaxe);
+		//Wood
+		registerRender(godwoodensword);
+		registerRender(godwoodenshovel);
+		registerRender(godwoodenpickaxe);
+		registerRender(godwoodenaxe);
+		registerRender(godwoodenhoe);
 	}
 	
 	private static void registerRender(Item item) {
