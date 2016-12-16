@@ -6,6 +6,11 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.unbreakabletools.mod.tools.ItemGodStoneAxe;
+import net.unbreakabletools.mod.tools.ItemGodStoneHoe;
+import net.unbreakabletools.mod.tools.ItemGodStonePickaxe;
+import net.unbreakabletools.mod.tools.ItemGodStoneShovel;
+import net.unbreakabletools.mod.tools.ItemGodStoneSword;
 import net.unbreakabletools.mod.tools.ItemGodWoodenAxe;
 import net.unbreakabletools.mod.tools.ItemGodWoodenHoe;
 import net.unbreakabletools.mod.tools.ItemGodWoodenPickaxe;
@@ -28,6 +33,13 @@ public class ModItems {
 	public static Item godwoodenaxe;
 	public static Item godwoodenhoe;
 	
+	//Stone Tools
+	public static Item godstonesword;
+	public static Item godstoneshovel;
+	public static Item godstonepickaxe;
+	public static Item godstoneaxe;
+	public static Item godstonehoe;
+	
 	public static void init() {
 		//Wood
 		godwoodensword = new ItemGodWoodenSword(GOD_MATERIAL_WOOD);
@@ -35,6 +47,13 @@ public class ModItems {
 		godwoodenpickaxe = new ItemGodWoodenPickaxe(GOD_MATERIAL_WOOD);
 		godwoodenaxe = new ItemGodWoodenAxe(GOD_MATERIAL_WOOD);
 		godwoodenhoe = new ItemGodWoodenHoe(GOD_MATERIAL_WOOD);
+		
+		//Stone
+		godstonesword = new ItemGodStoneSword(GOD_MATERIAL_STONE);
+		godstoneshovel = new ItemGodStoneShovel(GOD_MATERIAL_STONE);
+		godstonepickaxe = new ItemGodStonePickaxe(GOD_MATERIAL_STONE);
+		godstoneaxe = new ItemGodStoneAxe(GOD_MATERIAL_STONE);
+		godstonehoe = new ItemGodStoneHoe(GOD_MATERIAL_STONE);
 	}
 	
 	public static void register() {
@@ -44,6 +63,13 @@ public class ModItems {
 		GameRegistry.register(godwoodenpickaxe);
 		GameRegistry.register(godwoodenaxe);
 		GameRegistry.register(godwoodenhoe);
+		
+		//Stone
+		GameRegistry.register(godstonesword);
+		GameRegistry.register(godstoneshovel);
+		GameRegistry.register(godstonepickaxe);
+		GameRegistry.register(godstoneaxe);
+		GameRegistry.register(godstonehoe);
 	}
 	
 	public static void registerRenders() {
@@ -53,6 +79,13 @@ public class ModItems {
 		registerRender(godwoodenpickaxe);
 		registerRender(godwoodenaxe);
 		registerRender(godwoodenhoe);
+		
+		//Stone
+		registerRender(godstonesword);
+		registerRender(godstoneshovel);
+		registerRender(godstonepickaxe);
+		registerRender(godstoneaxe);
+		registerRender(godstonehoe);
 	}
 	
 	private static void registerRender(Item item) {

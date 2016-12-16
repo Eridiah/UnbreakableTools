@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.unbreakabletools.mod.init.ModCrafting;
 import net.unbreakabletools.mod.init.ModItems;
 import net.unbreakabletools.mod.proxy.CommonProxy;
 
@@ -31,6 +32,8 @@ public class UnbreakableTools {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init();
+		
+		ModCrafting.register();
 	}
 	
 	@EventHandler
