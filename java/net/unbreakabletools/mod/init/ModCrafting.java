@@ -20,6 +20,27 @@ public class ModCrafting {
 		GameRegistry.addRecipe(new ItemStack(ModItems.godstonepickaxe), "DND", "DPD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'P', Items.STONE_PICKAXE);
 		GameRegistry.addRecipe(new ItemStack(ModItems.godstoneaxe), "DND", "DAD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'A', Items.STONE_AXE);
 		GameRegistry.addRecipe(new ItemStack(ModItems.godstonehoe), "DND", "DHD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'H', Items.STONE_HOE);
+		
+		//Iron Tools
+		GameRegistry.addRecipe(new ItemStack(ModItems.godironsword), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.IRON_SWORD);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godironshovel), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.IRON_SHOVEL);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godironpickaxe), "DND", "DPD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'P', Items.IRON_PICKAXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godironaxe), "DND", "DAD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'A', Items.IRON_AXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godironhoe), "DND", "DHD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'H', Items.IRON_HOE);
+		
+		//Diamond Tools
+		GameRegistry.addRecipe(new ItemStack(ModItems.goddiamondsword), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.DIAMOND_SWORD);
+		GameRegistry.addRecipe(new ItemStack(ModItems.goddiamondshovel), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.DIAMOND_SHOVEL);
+		GameRegistry.addRecipe(new ItemStack(ModItems.goddiamondpickaxe), "DND", "DPD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'P', Items.DIAMOND_PICKAXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.goddiamondaxe), "DND", "DAD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'A', Items.DIAMOND_AXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.goddiamondhoe), "DND", "DHD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'H', Items.DIAMOND_HOE);
+		
+		//Gold Tools
+		GameRegistry.addRecipe(new ItemStack(ModItems.godgoldsword), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.GOLDEN_SWORD);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godgoldshovel), "DND", "DSD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'S', Items.GOLDEN_SHOVEL);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godgoldpickaxe), "DND", "DPD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'P', Items.GOLDEN_PICKAXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godgoldaxe), "DND", "DAD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'A', Items.GOLDEN_AXE);
+		GameRegistry.addRecipe(new ItemStack(ModItems.godgoldhoe), "DND", "DHD", "DDD", 'D', Items.DIAMOND, 'N', Items.NETHER_STAR, 'H', Items.GOLDEN_HOE);
 	}
 	
 }

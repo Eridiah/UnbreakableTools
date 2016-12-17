@@ -23,7 +23,28 @@ public class Reference {
 		GOD_STONE_SHOVEL("godstoneshovel", "itemgodstoneshovel"),
 		GOD_STONE_PICKAXE("godstonepickaxe", "itemgodstonepickaxe"),
 		GOD_STONE_AXE("godstoneaxe", "itemgodstoneaxe"),
-		GOD_STONE_HOE("godstonehoe", "itemgodstonehoe");
+		GOD_STONE_HOE("godstonehoe", "itemgodstonehoe"),
+		
+		//Iron
+		GOD_IRON_SWORD("godironsword", "itemgodironsword"),
+		GOD_IRON_SHOVEL("godironshovel", "itemgodironshovel"),
+		GOD_IRON_PICKAXE("godironpickaxe", "itemgodironpickaxe"),
+		GOD_IRON_AXE("godironaxe", "itemgodironaxe"),
+		GOD_IRON_HOE("godironhoe", "itemgodironhoe"),
+		
+		//Diamond
+		GOD_DIAMOND_SWORD("goddiamondsword", "itemgoddiamondsword"),
+		GOD_DIAMOND_SHOVEL("goddiamondshovel", "itemgoddiamondshovel"),
+		GOD_DIAMOND_PICKAXE("goddiamondpickaxe", "itemgoddiamondpickaxe"),
+		GOD_DIAMOND_AXE("goddiamondaxe", "itemgoddiamondaxe"),
+		GOD_DIAMOND_HOE("goddiamondhoe", "itemgoddiamondhoe"),
+		
+		//Gold
+		GOD_GOLD_SWORD("godgoldsword", "itemgodgoldsword"),
+		GOD_GOLD_SHOVEL("godgoldshovel", "itemgodgoldshovel"),
+		GOD_GOLD_PICKAXE("godgoldpickaxe", "itemgodgoldpickaxe"),
+		GOD_GOLD_AXE("godgoldaxe", "itemgodgoldaxe"),
+		GOD_GOLD_HOE("godgoldhoe", "itemgodgoldhoe");
 		
 		private String unlocalizedName;
 		private String registryName;
