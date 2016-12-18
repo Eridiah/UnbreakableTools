@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "unbreakabletools:items/godironhoe"
+        "layer0": "items/iron_hoe"
     }
 }

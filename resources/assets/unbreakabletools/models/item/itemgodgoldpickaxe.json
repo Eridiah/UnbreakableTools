@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "unbreakabletools:items/godgoldpickaxe"
+        "layer0": "items/gold_pickaxe"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "unbreakabletools:items/godstoneaxe"
+        "layer0": "items/stone_axe"
     }
 }
