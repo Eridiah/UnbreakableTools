@@ -76,6 +76,9 @@ public class ModItems {
 	public static Item godgoldaxe;
 	public static Item godgoldhoe;
 	
+	//Other Tools
+	
+	
 	public static void init() {
 		//Wood
 		godwoodensword = new ItemGodWoodenSword(GOD_MATERIAL_WOOD);
