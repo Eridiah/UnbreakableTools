@@ -35,11 +35,11 @@ import net.unbreakabletools.mod.tools.ItemGodWoodenSword;
 public class ModItems {
 	
 	//Tool Materials
-	public static ToolMaterial GOD_MATERIAL_WOOD = EnumHelper.addToolMaterial("god_material_wood", 0, 0, 2.0f, 0.0f, 15);
-	public static ToolMaterial GOD_MATERIAL_STONE = EnumHelper.addToolMaterial("god_material_stone", 1, 0, 4.0f, 1.0f, 5);
-	public static ToolMaterial GOD_MATERIAL_IRON = EnumHelper.addToolMaterial("god_material_iron", 2, 0, 6.0f, 2.0f, 14);
-	public static ToolMaterial GOD_MATERIAL_GOLD = EnumHelper.addToolMaterial("god_material_gold", 0, 0, 12.0f, 0.0f, 22);
-	public static ToolMaterial GOD_MATERIAL_DIAMOND = EnumHelper.addToolMaterial("god_material_diamond", 3, 0, 8.0f, 3.0f, 10);
+	public static ToolMaterial GOD_MATERIAL_WOOD = EnumHelper.addToolMaterial("god_material_wood", 0, 59, 2.0f, 0.0f, 15);
+	public static ToolMaterial GOD_MATERIAL_STONE = EnumHelper.addToolMaterial("god_material_stone", 1, 131, 4.0f, 1.0f, 5);
+	public static ToolMaterial GOD_MATERIAL_IRON = EnumHelper.addToolMaterial("god_material_iron", 2, 250, 6.0f, 2.0f, 14);
+	public static ToolMaterial GOD_MATERIAL_GOLD = EnumHelper.addToolMaterial("god_material_gold", 0, 32, 12.0f, 0.0f, 22);
+	public static ToolMaterial GOD_MATERIAL_DIAMOND = EnumHelper.addToolMaterial("god_material_diamond", 3, 1561, 8.0f, 3.0f, 10);
 	
 	//Wooden Tools
 	public static Item godwoodensword;
