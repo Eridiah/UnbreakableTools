@@ -1,7 +1,10 @@
 package net.unbreakabletools.mod.tools;
 
+import java.util.List;
+
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
@@ -27,6 +30,12 @@ public class ItemGodDiamondPickaxe extends ItemPickaxe {
 	@Override
 	public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
 		return true;
+	}
+	
+	@Override
+	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
+		tooltip.add("Indestructible");
+		super.addInformation(stack, playerIn, tooltip, advanced);
 	}
 	
 }

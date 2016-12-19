@@ -1,5 +1,6 @@
 package net.unbreakabletools.mod.tools;
 
+import java.util.List;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
@@ -8,6 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -46,6 +48,12 @@ public class ItemGodGoldAxe extends ItemTool {
 	@Override
 	public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker) {
 		return true;
+	}
+	
+	@Override
+	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
+		tooltip.add("Indestructible");
+		super.addInformation(stack, playerIn, tooltip, advanced);
 	}
     
 }
