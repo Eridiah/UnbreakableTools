@@ -34,7 +34,7 @@ public class ItemGodIronPickaxe extends ItemPickaxe {
 	
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
-		tooltip.add("Indestructible");
+		tooltip.add("\u00a76Indestructible");
 		super.addInformation(stack, playerIn, tooltip, advanced);
 	}
 

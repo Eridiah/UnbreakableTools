@@ -44,7 +44,10 @@ public class Reference {
 		GOD_GOLD_SHOVEL("godgoldshovel", "itemgodgoldshovel"),
 		GOD_GOLD_PICKAXE("godgoldpickaxe", "itemgodgoldpickaxe"),
 		GOD_GOLD_AXE("godgoldaxe", "itemgodgoldaxe"),
-		GOD_GOLD_HOE("godgoldhoe", "itemgodgoldhoe");
+		GOD_GOLD_HOE("godgoldhoe", "itemgodgoldhoe"),
+		
+		//Items
+		UNBREAKABLE_CORE("unbreakablecore", "itemunbreakablecore");
 		
 		private String unlocalizedName;
 		private String registryName;

@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.unbreakabletools.mod.items.ItemUnbreakableCore;
 import net.unbreakabletools.mod.tools.ItemGodDiamondAxe;
 import net.unbreakabletools.mod.tools.ItemGodDiamondHoe;
 import net.unbreakabletools.mod.tools.ItemGodDiamondPickaxe;
@@ -78,6 +79,9 @@ public class ModItems {
 	
 	//Other Tools
 	
+	//Items
+	public static Item unbreakablecore;
+	
 	
 	public static void init() {
 		//Wood
@@ -114,6 +118,9 @@ public class ModItems {
 		godgoldpickaxe = new ItemGodGoldPickaxe(GOD_MATERIAL_GOLD);
 		godgoldaxe = new ItemGodGoldAxe(GOD_MATERIAL_GOLD);
 		godgoldhoe = new ItemGodGoldHoe(GOD_MATERIAL_GOLD);
+		
+		//Items
+		unbreakablecore = new ItemUnbreakableCore();
 	}
 	
 	public static void register() {
@@ -151,6 +158,9 @@ public class ModItems {
 		GameRegistry.register(godgoldpickaxe);
 		GameRegistry.register(godgoldaxe);
 		GameRegistry.register(godgoldhoe);
+		
+		//Items
+		GameRegistry.register(unbreakablecore);
 	}
 	
 	public static void registerRenders() {
@@ -188,6 +198,9 @@ public class ModItems {
 		registerRender(godgoldpickaxe);
 		registerRender(godgoldaxe);
 		registerRender(godgoldhoe);
+		
+		//Items
+		registerRender(unbreakablecore);
 	}
 	
 	private static void registerRender(Item item) {
